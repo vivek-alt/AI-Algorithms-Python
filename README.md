@@ -12,6 +12,7 @@ Rules:
 6. if y>0 (x,y)=(min(x + y, a),max(0, x + y - a))
 
 Algorithm:
-1.Initialize visited nodes to null list and append start node into path list.
-2.create next state according to rules and if it is not present in visited append into path and visited.
-3.Call dfs recursively and if the result is found return path else pop the last state
+
+1. Initialize visited nodes to null list and append start node into path list.
+2. create next state according to rules and if it is not present in visited append into path and visited.
+3. Call dfs recursively and if the result is found return path else pop the last state
